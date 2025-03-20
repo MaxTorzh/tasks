@@ -13,6 +13,6 @@ public class Practicum {
 
         boolean isValid = TransactionValidator.validAmount(amount); // добавьте вызов метод isValidAmount
         if (isValid)
-            System.out.println("Спасибо! Ваш перевод на сумму " + amount + " р. успешно выполнен.");
+            System.out.println("Спасибо! Ваш перевод на сумму " + amount + " руб. успешно выполнен.");
     }
 }
